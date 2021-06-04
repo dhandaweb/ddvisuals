@@ -1,10 +1,14 @@
 import React from 'react';
 import './index.css';
 
+const clickHandle = () =>{
+console.log("click handle is working");
+}
+
 function ButtonPage() {
   return (
     <div>
-      THis isht ebutton talskdjf;lka s;kjlasdf; kl
+     <button onClick={clickHandle}>My first Button</button>
     </div>
   );
 }
